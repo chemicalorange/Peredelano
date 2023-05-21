@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded',function(event){
             setTimeout(function() {
                 StartTextAnimation(0);
             }, 20000);
+            return null
         }
         if (i < dataText[i].length) {
             typeWriter(dataText[i], 0, function(){
